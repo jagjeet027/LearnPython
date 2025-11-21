@@ -22,7 +22,7 @@ lst[1]=100
 print(lst)
 
 
-print(lst[-4],lst[-3])
+print(lst[-4],lst[-3]) # accessing elements from the list using negative indexing
 
 
 
