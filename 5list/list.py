@@ -1,36 +1,42 @@
 # 🧠 1️⃣ What is a List in Python?
 # 👉 List ek collection hoti hai — jisme tu multiple items store kar sakta hai ek hi variable me.
+
 # Example 👇
 
-# fruits = ["apple", "banana", "cherry"]   Ye ek list hai.
-
-# 1. Har item ko comma ( , ) se separate karte hain.
-
-# 2. List square brackets [ ] ke andar likhi jaati hai.
+# fruits = ["apple", "banana", "cherry"]   
+# Ye ek list hai.
+# Har item ko comma ( , ) se separate karte hain.
+# List square brackets [ ] ke andar likhi jaati hai.
 
 # 🧩 2️⃣ Features of List
-
 # ✅ Ordered → items ka order fix rehta hai (insertion order).
 # ✅ Mutable → tu list ke elements ko change kar sakta hai.
 # ✅ Allow duplicates → same element multiple times ho sakta hai.
 # ✅ Can store different data types → numbers, strings, or mix.
 
-lst =[23,45,32,12,54,54,32,12,67,89,90]
+lst =[23,45,32,12,54,54,32,12,67,89,90,"jagjeet","jaiswal",True,False]
 print(lst)
 print(type(lst))
 
-
-# # 🔁 7️⃣ Looping through a List
-fruits = ["apple", "banana", "cherry"]
-for x in fruits:
-    if x=="banana":
-      print(x.upper(), "is my favorite fruit")
+lst[1]=100
+print(lst)
 
 
-fruit1 =["mango","guava","kiwi"]
-fruit1.extend(fruits)
-print(fruit1)
-# # Output:
+print(lst[-4],lst[-3])
+
+
+
+# # # 🔁 7️⃣ Looping through a List
+# fruits = ["apple", "banana", "cherry"]
+# for x in fruits:
+#     if x=="banana":
+#       print(x.upper(), "is my favorite fruit")
+
+
+# fruit1 =["mango","guava","kiwi"]
+# fruit1.extend(fruits)
+# print(fruit1)
+# # # Output:
 
 # # apple
 # # banana

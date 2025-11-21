@@ -28,3 +28,27 @@
 # tuple use karne se Python ko internally pata hota hai ki ye fixed hai —
 # optimization kar leta hai (execution thoda faster hota hai). ⚡
 
+# 💬 Why and When to Use Tuple?
+
+# ✅ Fixed Data — jab data change nahi hona chahiye (jaise coordinates, dates, etc.)
+# ⚡ Speed — tuple list se thoda fast execute hota hai
+# 🔒 Safety — accidental modification nahi hota
+# 🧮 Dictionary Keys / Set Elements — tuple use kar sakte ho, list nahi
+# 🧠 Structured Grouping — related but different-type values store karne ke liye (like name, age, roll number)
+
+
+tup=(12,34,56,78,90)
+print(tup)
+print(type(tup))
+# tup[1]=100  # error tuple object does not support item assignment we cannot change tuple elements
+print(tup[2])
+
+if 56 in tup:
+    print('yes 56 is present in tuple')
+else:
+    print('not present')
+
+
+# slicing in tuple
+tup2 = tup[0:5]
+print(tup2)
